@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* header css start */
+header{
+    background-image: url(../images/banner/banner1.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    text-align: right;
+    top: 50%;
+    transform: translate(0, -50%);
+    
+    
+}
+
+.header-container{
+    margin-right: 230px;
+    margin-top: 260px;
+    
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 80px;
+    color: #151414;
+    margin-bottom: 24px;
+    line-height: 80px;
+}
+
+.header-description{
+    margin-left: 1200px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    line-height: 25px;
+    line-break:loose;
+    margin-bottom: 32px;
+}
+
+.first-button{
+    border: none;
+    background-color: #F15B22;
+    padding: 27px 30px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/* header css end */
+
+/* first-section start */
