@@ -1,29 +1,30 @@
-*{
+/* for all pages */
+* {
     margin: auto;
     font-family: 'Work Sans';
 }
 
 /* header css start */
-header{
+header {
     background-image: url(../images/banner/banner3.png);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
-.header-container{
+.header-container {
     margin-right: 230px;
     margin-top: 80px;
     position: absolute;
     text-align: right;
     top: 50%;
-    transform: translate(0, -50%);  
-    
+    transform: translate(0, -50%);
+
 }
 
-.header-title{
+.header-title {
     font-weight: 700;
     font-size: 80px;
     color: #FFFFFF;
@@ -31,17 +32,17 @@ header{
     line-height: 80px;
 }
 
-.header-description{
+.header-description {
     margin-left: 1200px;
     font-weight: 400;
     font-size: 16px;
     color: white;
     line-height: 25px;
-    line-break:loose;
+    line-break: loose;
     margin-bottom: 32px;
 }
 
-.first-button{
+.first-button {
     border: none;
     background-color: white;
     padding: 27px 30px;
@@ -52,26 +53,26 @@ header{
     line-height: 23px;
 }
 
-/* header css end */
+/* header css ends here */
 
-/* first-section start */
+/* first-section start here*/
 
-.seasoned{
+.seasoned {
     display: flex;
     align-items: center;
-    margin-top:131px ;
+    margin-top: 131px;
 }
 
-.image1{
+.image1 {
     margin-left: 400px;
 }
 
-.article1{
+.article1 {
     margin-left: -190px;
-    
+
 }
 
-.article1-title{
+.article1-title {
     font-weight: bolder;
     font-size: 60px;
     line-height: 65px;
@@ -80,48 +81,51 @@ header{
     margin-top: 50px;
 }
 
-.article1-description{
+.article1-description {
     color: #444343;
     font-weight: 400;
     font-size: 16px;
     color: #444343;
     line-height: 25px;
-    line-break:loose;
+    line-break: loose;
     margin-bottom: 32px;
 }
 
-i{
-    color: green;
+i {
+    color: #16D887;
 }
 
-.myplan{
+/* first section css ends here*/
+
+/* second section css start here*/
+.my-plan {
     text-align: center;
     font-weight: 700;
     font-size: 60px;
     line-height: 47px;
     color: #151414;
-    margin-top: 130px ;
+    margin-top: 140px;
     margin-bottom: 56px;
 
 }
 
-.plans{
+.plans {
     display: flex;
     gap: 4px;
     text-align: center;
     align-items: center;
-    margin: 0px 230px ;
+    margin: 0px 230px;
 }
 
-.plan-title{
-    font-weight:bolder;
+.plan-title {
+    font-weight: bolder;
     font-size: 35px;
     line-height: 35px;
     color: #151414;
     margin-top: 20px;
 }
 
-.plan-description{
+.plan-description {
     margin-top: 20px;
     font-size: 25px;
     font-weight: 500;
@@ -129,9 +133,13 @@ i{
     line-height: 29px;
 }
 
-.image2{
-    background-image: url(../images/watch.png),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
-    background-blend-mode:multiply;
+/* second section css ends here */
+
+ /* Gradient section css start here */
+/*using linearGradient is bonus, said in module */
+.image2 {
+    background-image: url(../images/watch.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 150px 230px;
@@ -139,7 +147,7 @@ i{
     border-radius: 5px;
 }
 
-.image2-heading{
+.image2-heading {
     font-size: 40px;
     font-weight: 800;
     color: white;
@@ -148,7 +156,7 @@ i{
     margin-left: -250px;
 }
 
-.second-button{
+.second-button {
     margin-left: -250px;
     margin-top: 24px;
     background-color: white;
@@ -162,17 +170,21 @@ i{
 
 }
 
-.footer{
+/* Gradient section css ends here */
+
+/* footer section start here */
+
+.footer {
     background-color: #151414;
 }
 
-.footer-section{
+.footer-section {
     display: flex;
     align-items: center;
     color: #F8F8F8;
 }
 
-.footer-title{
+.footer-title {
     margin-top: 130px;
     margin-left: 230px;
     margin-bottom: 16px;
@@ -181,7 +193,7 @@ i{
     font-weight: 700;
 }
 
-.footer-description{
+.footer-description {
     margin-left: 230px;
     margin-bottom: 16px;
     margin-right: 858px;
@@ -191,7 +203,7 @@ i{
     color: white;
 }
 
-.email{
+.email {
     margin-left: 230px;
     margin-bottom: 16px;
     font-size: 16px;
@@ -200,28 +212,28 @@ i{
     color: white;
 }
 
-.icons{
+.icons {
     margin-left: 230px;
 }
 
-.icon{
+.icon {
     margin-right: 17px;
     padding-bottom: 130px;
 }
 
-.sub{
+.sub {
     margin-left: -600px;
     margin-top: -121px;
     font-weight: 600;
     font-size: 40px;
     line-height: 29px;
-    margin-bottom:31px;
+    margin-bottom: 31px;
 }
 
-.subscribe input{
-    border-color: #ffffff;
+.subscribe input {
+    border: 2px solid white;
     margin-left: -597px;
-    background-color:#151414;
+    background-color: #151414;
     height: 64px;
     width: 325px;
     border-radius: 8px;
@@ -230,6 +242,22 @@ i{
     line-height: 21px;
     font-weight: 400;
 }
- input:placeholder{
-    color:#ffffff;
+
+::placeholder {
+    color: #ffffff;
 }
+
+.third-button {
+    border: none;
+    color: white;
+    padding: 27px 30px;
+    background-color: #005FAC;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: -597px;
+    margin-top: 16px;
+}
+
+/* footer section ends here */
