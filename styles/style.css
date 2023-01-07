@@ -5,7 +5,7 @@
 
 /* header css start */
 header{
-    background-image: url(../images/banner/banner1.png);
+    background-image: url(../images/banner/banner3.png);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ header{
 .header-title{
     font-weight: 700;
     font-size: 80px;
-    color: #151414;
+    color: #FFFFFF;
     margin-bottom: 24px;
     line-height: 80px;
 }
@@ -35,7 +35,7 @@ header{
     margin-left: 1200px;
     font-weight: 400;
     font-size: 16px;
-    color: #444343;
+    color: white;
     line-height: 25px;
     line-break:loose;
     margin-bottom: 32px;
@@ -43,9 +43,9 @@ header{
 
 .first-button{
     border: none;
-    background-color: #F15B22;
+    background-color: white;
     padding: 27px 30px;
-    color: white;
+    color: #005FAC;
     border-radius: 5px;
     font-weight: 600;
     font-size: 20px;
@@ -160,4 +160,76 @@ i{
     border-radius: 5px;
     padding: 21px 36px;
 
+}
+
+.footer{
+    background-color: #151414;
+}
+
+.footer-section{
+    display: flex;
+    align-items: center;
+    color: #F8F8F8;
+}
+
+.footer-title{
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-bottom: 16px;
+    font-size: 45px;
+    line-height: 53px;
+    font-weight: 700;
+}
+
+.footer-description{
+    margin-left: 230px;
+    margin-bottom: 16px;
+    margin-right: 858px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+}
+
+.email{
+    margin-left: 230px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+}
+
+.icons{
+    margin-left: 230px;
+}
+
+.icon{
+    margin-right: 17px;
+    padding-bottom: 130px;
+}
+
+.sub{
+    margin-left: -600px;
+    margin-top: -121px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 29px;
+    margin-bottom:31px;
+}
+
+.subscribe input{
+    border-color: #ffffff;
+    margin-left: -597px;
+    background-color:#151414;
+    height: 64px;
+    width: 325px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+}
+ input:placeholder{
+    color:#ffffff;
 }
